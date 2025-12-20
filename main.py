@@ -3,16 +3,22 @@
 Run the MyTaskly MCP server with all registered tools.
 
 Usage:
-    python run_server.py              # Run MCP server in stdio mode
+    python main.py              # Run MCP server in SSE mode (HTTP server)
 """
 
+import os
 from src.core.server import mcp
 from src.config import settings
 
 
-
 if __name__ == "__main__":
-    # Run the MCP server
-    print("[+] Starting MCP server in stdio mode...")
-    print("[+] Ready to accept connections\n")
-    mcp.run()
+    # Get port from environment variable (Railway sets this)
+    port = int(os.getenv("PORT", 8000))
+    host = os.getenv("HOST", "0.0.0.0")
+
+    # Run the MCP server in SSE mode for Railway deployment
+    print(f"[+] Starting MCP server in SSE mode on {host}:{port}...")
+    print("[+] Ready to accept HTTP connections\n")
+
+    # Run with uvicorn in SSE mode
+    mcp.run(transport="sse", host=host, port=port)
