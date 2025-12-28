@@ -14,7 +14,7 @@ class BaseClient:
         self.base_url = settings.fastapi_base_url
         self.api_key = settings.fastapi_api_key
         # This secret must match the SECRET_KEY in FastAPI server for user token generation
-        self.secret_key = "349878uoti34h80943iotrhf-83490ewofridsh3t4iner"
+        self.secret_key = settings.jwt_secret_key
         self.timeout = 30.0
 
     async def _get_user_token(self, user_id: int) -> str:
