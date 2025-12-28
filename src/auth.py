@@ -29,6 +29,8 @@ def verify_jwt_token(authorization: Optional[str] = Header(None)) -> int:
     Raises:
         HTTPException: If token is missing, invalid, or expired
     """
+    print(f"[DEBUG] verify_jwt_token called with: {repr(authorization)}")
+
     if not authorization:
         raise HTTPException(
             status_code=401,
@@ -45,11 +47,20 @@ def verify_jwt_token(authorization: Optional[str] = Header(None)) -> int:
 
     token = authorization.replace("Bearer ", "").strip()
 
-    # Debug: Log token details (FULL token, not truncated)
-    print(f"[DEBUG] Authorization header (FULL): {authorization}")
-    print(f"[DEBUG] Extracted token (FULL): {token}")
-    print(f"[DEBUG] Token length: {len(token)}")
+    # Debug: Log token details
+    print(f"[DEBUG] ========== TOKEN VALIDATION START ==========")
+    print(f"[DEBUG] Authorization string length: {len(authorization)}")
+    print(f"[DEBUG] Extracted token length: {len(token)}")
     print(f"[DEBUG] Token parts count: {len(token.split('.'))}")
+    print(f"[DEBUG] First 20 chars: {token[:20]}")
+    print(f"[DEBUG] Last 20 chars: {token[-20:]}")
+    print(f"[DEBUG] Expected minimum length: 200 chars")
+
+    if len(token) < 200:
+        print(f"[DEBUG] WARNING: Token is too short! Expected 300+, got {len(token)}")
+        print(f"[DEBUG] Full token received: {token}")
+
+    print(f"[DEBUG] ========== TOKEN VALIDATION END ============")
 
     try:
         # Decode and validate JWT

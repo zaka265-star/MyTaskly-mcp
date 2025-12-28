@@ -9,7 +9,8 @@
       "Bash(source .venv/bin/activate)",
       "Bash(source:*)",
       "Bash(timeout 30 python:*)",
-      "Bash(python tests/generate_token.py:*)"
+      "Bash(python tests/generate_token.py:*)",
+      "Bash(python tests/test_token_decode.py:*)"
     ]
   }
 }
