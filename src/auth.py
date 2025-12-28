@@ -45,6 +45,12 @@ def verify_jwt_token(authorization: Optional[str] = Header(None)) -> int:
 
     token = authorization.replace("Bearer ", "").strip()
 
+    # Debug: Log token details (FULL token, not truncated)
+    print(f"[DEBUG] Authorization header (FULL): {authorization}")
+    print(f"[DEBUG] Extracted token (FULL): {token}")
+    print(f"[DEBUG] Token length: {len(token)}")
+    print(f"[DEBUG] Token parts count: {len(token.split('.'))}")
+
     try:
         # Decode and validate JWT
         payload = jwt.decode(
